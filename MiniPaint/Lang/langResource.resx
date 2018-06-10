@@ -120,6 +120,9 @@
   <data name="action" xml:space="preserve">
     <value>Actions</value>
   </data>
+  <data name="circle" xml:space="preserve">
+    <value>Circle</value>
+  </data>
   <data name="clean" xml:space="preserve">
     <value>Clean</value>
   </data>
@@ -138,11 +141,20 @@
   <data name="languageToolStripMenuItem" xml:space="preserve">
     <value>Language</value>
   </data>
+  <data name="line" xml:space="preserve">
+    <value>Line</value>
+  </data>
   <data name="open" xml:space="preserve">
     <value>Open</value>
   </data>
+  <data name="pencil" xml:space="preserve">
+    <value>Pencil</value>
+  </data>
   <data name="polish" xml:space="preserve">
     <value>Polish</value>
+  </data>
+  <data name="rectangle" xml:space="preserve">
+    <value>Rectangle</value>
   </data>
   <data name="redo" xml:space="preserve">
     <value>Redo</value>

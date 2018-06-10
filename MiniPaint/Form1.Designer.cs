@@ -69,17 +69,18 @@
             this.panel1.Location = new System.Drawing.Point(22, 48);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(785, 513);
+            this.panel1.Size = new System.Drawing.Size(894, 513);
             this.panel1.TabIndex = 0;
             // 
             // imgPicture
             // 
-            this.imgPicture.Location = new System.Drawing.Point(-1, -2);
+            this.imgPicture.Location = new System.Drawing.Point(-1, -1);
             this.imgPicture.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.imgPicture.Name = "imgPicture";
-            this.imgPicture.Size = new System.Drawing.Size(785, 514);
+            this.imgPicture.Size = new System.Drawing.Size(894, 514);
             this.imgPicture.TabIndex = 0;
             this.imgPicture.TabStop = false;
+            this.imgPicture.Click += new System.EventHandler(this.imgPicture_Click);
             this.imgPicture.MouseDown += new System.Windows.Forms.MouseEventHandler(this.imgPicture_MouseDown);
             this.imgPicture.MouseMove += new System.Windows.Forms.MouseEventHandler(this.imgPicture_MouseMove);
             this.imgPicture.MouseUp += new System.Windows.Forms.MouseEventHandler(this.imgPicture_MouseUp);
@@ -89,7 +90,7 @@
             this.btnClean.Location = new System.Drawing.Point(6, 32);
             this.btnClean.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnClean.Name = "btnClean";
-            this.btnClean.Size = new System.Drawing.Size(66, 38);
+            this.btnClean.Size = new System.Drawing.Size(87, 38);
             this.btnClean.TabIndex = 2;
             this.btnClean.Text = "Clean";
             this.btnClean.UseVisualStyleBackColor = true;
@@ -114,7 +115,7 @@
             this.groupBoxShape.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBoxShape.Name = "groupBoxShape";
             this.groupBoxShape.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBoxShape.Size = new System.Drawing.Size(319, 95);
+            this.groupBoxShape.Size = new System.Drawing.Size(383, 95);
             this.groupBoxShape.TabIndex = 5;
             this.groupBoxShape.TabStop = false;
             this.groupBoxShape.Text = "Shapes";
@@ -122,10 +123,10 @@
             // btn_curve
             // 
             this.btn_curve.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_curve.Location = new System.Drawing.Point(184, 27);
+            this.btn_curve.Location = new System.Drawing.Point(204, 27);
             this.btn_curve.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_curve.Name = "btn_curve";
-            this.btn_curve.Size = new System.Drawing.Size(70, 48);
+            this.btn_curve.Size = new System.Drawing.Size(84, 48);
             this.btn_curve.TabIndex = 5;
             this.btn_curve.Text = "Pencil";
             this.btn_curve.UseVisualStyleBackColor = true;
@@ -134,10 +135,10 @@
             // btnEllips
             // 
             this.btnEllips.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnEllips.Location = new System.Drawing.Point(117, 27);
+            this.btnEllips.Location = new System.Drawing.Point(112, 27);
             this.btnEllips.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnEllips.Name = "btnEllips";
-            this.btnEllips.Size = new System.Drawing.Size(61, 48);
+            this.btnEllips.Size = new System.Drawing.Size(86, 48);
             this.btnEllips.TabIndex = 4;
             this.btnEllips.Text = "Circle";
             this.btnEllips.UseVisualStyleBackColor = true;
@@ -149,7 +150,7 @@
             this.btnSquere.Location = new System.Drawing.Point(6, 27);
             this.btnSquere.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSquere.Name = "btnSquere";
-            this.btnSquere.Size = new System.Drawing.Size(105, 48);
+            this.btnSquere.Size = new System.Drawing.Size(100, 48);
             this.btnSquere.TabIndex = 3;
             this.btnSquere.Text = "Rectangle";
             this.btnSquere.UseVisualStyleBackColor = true;
@@ -158,10 +159,10 @@
             // btnLine
             // 
             this.btnLine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnLine.Location = new System.Drawing.Point(260, 27);
+            this.btnLine.Location = new System.Drawing.Point(294, 27);
             this.btnLine.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLine.Name = "btnLine";
-            this.btnLine.Size = new System.Drawing.Size(53, 48);
+            this.btnLine.Size = new System.Drawing.Size(83, 48);
             this.btnLine.TabIndex = 2;
             this.btnLine.Text = "Line";
             this.btnLine.UseVisualStyleBackColor = true;
@@ -170,7 +171,7 @@
             // groupBoxColor
             // 
             this.groupBoxColor.Controls.Add(this.IdColor);
-            this.groupBoxColor.Location = new System.Drawing.Point(510, 576);
+            this.groupBoxColor.Location = new System.Drawing.Point(574, 576);
             this.groupBoxColor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBoxColor.Name = "groupBoxColor";
             this.groupBoxColor.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -184,11 +185,11 @@
             this.groupBoxAction.Controls.Add(this.btnRedo);
             this.groupBoxAction.Controls.Add(this.btnUndo);
             this.groupBoxAction.Controls.Add(this.btnClean);
-            this.groupBoxAction.Location = new System.Drawing.Point(591, 576);
+            this.groupBoxAction.Location = new System.Drawing.Point(655, 576);
             this.groupBoxAction.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBoxAction.Name = "groupBoxAction";
             this.groupBoxAction.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBoxAction.Size = new System.Drawing.Size(222, 95);
+            this.groupBoxAction.Size = new System.Drawing.Size(261, 95);
             this.groupBoxAction.TabIndex = 7;
             this.groupBoxAction.TabStop = false;
             this.groupBoxAction.Text = "Actions";
@@ -196,10 +197,10 @@
             // btnRedo
             // 
             this.btnRedo.Enabled = false;
-            this.btnRedo.Location = new System.Drawing.Point(150, 32);
+            this.btnRedo.Location = new System.Drawing.Point(178, 32);
             this.btnRedo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnRedo.Name = "btnRedo";
-            this.btnRedo.Size = new System.Drawing.Size(66, 38);
+            this.btnRedo.Size = new System.Drawing.Size(77, 38);
             this.btnRedo.TabIndex = 6;
             this.btnRedo.Text = "Redo";
             this.btnRedo.UseVisualStyleBackColor = true;
@@ -208,10 +209,10 @@
             // btnUndo
             // 
             this.btnUndo.Enabled = false;
-            this.btnUndo.Location = new System.Drawing.Point(78, 32);
+            this.btnUndo.Location = new System.Drawing.Point(99, 32);
             this.btnUndo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnUndo.Name = "btnUndo";
-            this.btnUndo.Size = new System.Drawing.Size(66, 38);
+            this.btnUndo.Size = new System.Drawing.Size(73, 38);
             this.btnUndo.TabIndex = 5;
             this.btnUndo.Text = "Undo";
             this.btnUndo.UseVisualStyleBackColor = true;
@@ -227,7 +228,7 @@
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
             this.menu.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menu.Size = new System.Drawing.Size(828, 33);
+            this.menu.Size = new System.Drawing.Size(928, 33);
             this.menu.TabIndex = 8;
             this.menu.Text = "menuStrip1";
             // 
@@ -312,7 +313,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(828, 684);
+            this.ClientSize = new System.Drawing.Size(928, 684);
             this.Controls.Add(this.groupBoxSize);
             this.Controls.Add(this.groupBoxAction);
             this.Controls.Add(this.groupBoxColor);

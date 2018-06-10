@@ -176,6 +176,10 @@ namespace MiniPaint
             btnClean.Text = rm.GetString("clean");
             pluginsMenu.Text = "Wtyczki";
             //emptyMenu.Text = "Pusto";
+            btnSquere.Text = rm.GetString("rectangle");
+            btnEllips.Text = rm.GetString("circle");
+            btn_curve.Text = rm.GetString("pencil");
+            btnLine.Text = rm.GetString("line");
         }
 
         private void englishToolStripMenuItem_Click(object sender, EventArgs e)
@@ -198,6 +202,10 @@ namespace MiniPaint
             btnClean.Text = rm.GetString("clean");
             pluginsMenu.Text = "Plugins";
             //emptyMenu.Text = "Empty";
+            btnSquere.Text = rm.GetString("rectangle");
+            btnEllips.Text = rm.GetString("circle");
+            btn_curve.Text = rm.GetString("pencil");
+            btnLine.Text = rm.GetString("line");
 
         }
 
@@ -227,6 +235,11 @@ namespace MiniPaint
             dialog.ShowDialog();
             IdColor.BackColor = dialog.Color;
             pen.Color = dialog.Color;
+        }
+
+        private void imgPicture_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void LoadPlugins()
