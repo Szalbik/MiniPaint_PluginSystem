@@ -77,7 +77,7 @@
             this.imgPicture.Location = new System.Drawing.Point(-1, -1);
             this.imgPicture.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.imgPicture.Name = "imgPicture";
-            this.imgPicture.Size = new System.Drawing.Size(894, 514);
+            this.imgPicture.Size = new System.Drawing.Size(890, 514);
             this.imgPicture.TabIndex = 0;
             this.imgPicture.TabStop = false;
             this.imgPicture.Click += new System.EventHandler(this.imgPicture_Click);
@@ -324,7 +324,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "MiniPaint";
+            this.Text = "PaintPluginSystem";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.imgPicture)).EndInit();
             this.groupBoxShape.ResumeLayout(false);
