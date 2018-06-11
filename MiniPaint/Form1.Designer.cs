@@ -36,7 +36,6 @@
             this.btn_curve = new System.Windows.Forms.Button();
             this.btnEllips = new System.Windows.Forms.Button();
             this.btnSquere = new System.Windows.Forms.Button();
-            this.btnLine = new System.Windows.Forms.Button();
             this.groupBoxColor = new System.Windows.Forms.GroupBox();
             this.groupBoxAction = new System.Windows.Forms.GroupBox();
             this.btnRedo = new System.Windows.Forms.Button();
@@ -110,12 +109,11 @@
             this.groupBoxShape.Controls.Add(this.btn_curve);
             this.groupBoxShape.Controls.Add(this.btnEllips);
             this.groupBoxShape.Controls.Add(this.btnSquere);
-            this.groupBoxShape.Controls.Add(this.btnLine);
-            this.groupBoxShape.Location = new System.Drawing.Point(185, 576);
+            this.groupBoxShape.Location = new System.Drawing.Point(215, 576);
             this.groupBoxShape.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBoxShape.Name = "groupBoxShape";
             this.groupBoxShape.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBoxShape.Size = new System.Drawing.Size(383, 95);
+            this.groupBoxShape.Size = new System.Drawing.Size(297, 95);
             this.groupBoxShape.TabIndex = 5;
             this.groupBoxShape.TabStop = false;
             this.groupBoxShape.Text = "Shapes";
@@ -156,22 +154,10 @@
             this.btnSquere.UseVisualStyleBackColor = true;
             this.btnSquere.Click += new System.EventHandler(this.btnSquere_Click);
             // 
-            // btnLine
-            // 
-            this.btnLine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnLine.Location = new System.Drawing.Point(294, 27);
-            this.btnLine.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnLine.Name = "btnLine";
-            this.btnLine.Size = new System.Drawing.Size(83, 48);
-            this.btnLine.TabIndex = 2;
-            this.btnLine.Text = "Line";
-            this.btnLine.UseVisualStyleBackColor = true;
-            this.btnLine.Click += new System.EventHandler(this.btnLine_Click);
-            // 
             // groupBoxColor
             // 
             this.groupBoxColor.Controls.Add(this.IdColor);
-            this.groupBoxColor.Location = new System.Drawing.Point(574, 576);
+            this.groupBoxColor.Location = new System.Drawing.Point(518, 576);
             this.groupBoxColor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBoxColor.Name = "groupBoxColor";
             this.groupBoxColor.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -185,11 +171,11 @@
             this.groupBoxAction.Controls.Add(this.btnRedo);
             this.groupBoxAction.Controls.Add(this.btnUndo);
             this.groupBoxAction.Controls.Add(this.btnClean);
-            this.groupBoxAction.Location = new System.Drawing.Point(655, 576);
+            this.groupBoxAction.Location = new System.Drawing.Point(599, 576);
             this.groupBoxAction.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBoxAction.Name = "groupBoxAction";
             this.groupBoxAction.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBoxAction.Size = new System.Drawing.Size(261, 95);
+            this.groupBoxAction.Size = new System.Drawing.Size(281, 95);
             this.groupBoxAction.TabIndex = 7;
             this.groupBoxAction.TabStop = false;
             this.groupBoxAction.Text = "Actions";
@@ -200,7 +186,7 @@
             this.btnRedo.Location = new System.Drawing.Point(178, 32);
             this.btnRedo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnRedo.Name = "btnRedo";
-            this.btnRedo.Size = new System.Drawing.Size(77, 38);
+            this.btnRedo.Size = new System.Drawing.Size(97, 38);
             this.btnRedo.TabIndex = 6;
             this.btnRedo.Text = "Redo";
             this.btnRedo.UseVisualStyleBackColor = true;
@@ -239,27 +225,27 @@
             this.saveToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(50, 29);
-            this.fileToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(88, 29);
+            this.fileToolStripMenuItem.Text = "Options";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(140, 30);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(140, 30);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(140, 30);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -289,7 +275,7 @@
             // groupBoxSize
             // 
             this.groupBoxSize.Controls.Add(this.sizeBar);
-            this.groupBoxSize.Location = new System.Drawing.Point(22, 569);
+            this.groupBoxSize.Location = new System.Drawing.Point(58, 569);
             this.groupBoxSize.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBoxSize.Name = "groupBoxSize";
             this.groupBoxSize.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -348,7 +334,6 @@
         private System.Windows.Forms.GroupBox groupBoxShape;
         private System.Windows.Forms.Button btnEllips;
         private System.Windows.Forms.Button btnSquere;
-        private System.Windows.Forms.Button btnLine;
         private System.Windows.Forms.GroupBox groupBoxColor;
         private System.Windows.Forms.GroupBox groupBoxAction;
         private System.Windows.Forms.Button btnRedo;

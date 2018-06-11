@@ -179,7 +179,6 @@ namespace MiniPaint
             btnSquere.Text = rm.GetString("rectangle");
             btnEllips.Text = rm.GetString("circle");
             btn_curve.Text = rm.GetString("pencil");
-            btnLine.Text = rm.GetString("line");
         }
 
         private void englishToolStripMenuItem_Click(object sender, EventArgs e)
@@ -205,7 +204,6 @@ namespace MiniPaint
             btnSquere.Text = rm.GetString("rectangle");
             btnEllips.Text = rm.GetString("circle");
             btn_curve.Text = rm.GetString("pencil");
-            btnLine.Text = rm.GetString("line");
 
         }
 

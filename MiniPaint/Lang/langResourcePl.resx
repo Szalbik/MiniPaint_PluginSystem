@@ -136,7 +136,7 @@
     <value>Zakończ</value>
   </data>
   <data name="fileToolStripMenuItem" xml:space="preserve">
-    <value>Plik</value>
+    <value>Opcje</value>
   </data>
   <data name="languageToolStripMenuItem" xml:space="preserve">
     <value>Język</value>

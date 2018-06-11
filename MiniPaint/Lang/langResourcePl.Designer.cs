@@ -115,7 +115,7 @@ namespace MiniPaint.Lang {
         }
         
         /// <summary>
-        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Plik.
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Opcje.
         /// </summary>
         internal static string fileToolStripMenuItem {
             get {

@@ -136,7 +136,7 @@
     <value>Exite</value>
   </data>
   <data name="fileToolStripMenuItem" xml:space="preserve">
-    <value>File</value>
+    <value>Options</value>
   </data>
   <data name="languageToolStripMenuItem" xml:space="preserve">
     <value>Language</value>
